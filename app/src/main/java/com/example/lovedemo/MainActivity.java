@@ -22,7 +22,7 @@ public class MainActivity extends BaseActivity {
         @Override
         public void run() {
             mBombView.startBomb();
-            getUIHandler().postDelayed(task, 1000);
+            getUIHandler().postDelayed(task, 2000);
         }
     };
 
@@ -34,7 +34,7 @@ public class MainActivity extends BaseActivity {
 
         mBombView = (BombView) findViewById(R.id.bombview);
 
-        getUIHandler().postDelayed(task, 3000);
+        getUIHandler().postDelayed(task, 1000);
 
         new Handler().postDelayed(new Runnable() {
             @Override
