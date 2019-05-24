@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.lovedemo.view.PraiseView
+        android:id="@+id/bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.xiaweizi.marquee.MarqueeTextView
+        android:id="@+id/marquee1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="跑马灯"
+        android:textColor="@color/calendar_top_bg"
+        android:textSize="25sp"
+        app:scroll_first_delay="0"
+        app:scroll_interval="3000"
+        app:scroll_mode="mode_forever"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
