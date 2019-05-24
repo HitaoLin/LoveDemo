@@ -50,7 +50,7 @@ public class Main2Activity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 mPraiseView.addBubble(1);
-                p=p+4;
+                p=p+2;
                 if (p<=100){
                     progesss.setProgress(p);
                     initview();
